@@ -175,9 +175,39 @@
 }
 
 .user-profile{
-    width: 30px;
+    width: 33px;
     border-radius: 35px;
     margin-left: 24px;
     margin-right: 34px;
     cursor: pointer;
+}
+
+
+
+@media (max-width:700px){
+
+  .middle-section{
+    margin-left:20px;  
+    margin-right:10px;
+  }
+
+  .search-input{
+    max-width:120px;
+    font-size:14px;
+  }
+
+
+  .create-icon-button{
+    width:auto;
+    padding-left:12px;
+    padding-right:12px;
+  }
+
+  .notification-icon-button{
+    margin-left:10px;
+  }
+
+  .youtube-name-logo{
+    height:42px;
+  }
 }
