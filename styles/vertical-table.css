@@ -12,6 +12,13 @@
 }
 
 
+@media(max-width:800px){
+    .vertical-table{
+        display: none;
+    }
+}
+
+
 .vertical-icon{
     border-radius: 8px;
     transition: 0.25s;
@@ -44,3 +51,6 @@
 #you-text{
     margin-left: 20px;
 }
+
+
+
