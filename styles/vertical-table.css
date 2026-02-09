@@ -10,11 +10,17 @@
     width: 60px;
 }
 
+
 @media(max-width:600px){
     .vertical-table{
         display: none;
     }
+
+    .all-videos{
+        margin-left:0;
+    }
 }
+
 
 
 .vertical-icon{
@@ -49,3 +55,4 @@
 #you-text{
     margin-left: 20px;
 }
+
