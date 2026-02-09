@@ -47,12 +47,21 @@
     margin-left: 2px;
     margin-right: 2px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
 
+}
+
+.arrow:hover{
+    background-color: rgb(228, 228, 228);
 }
 
 #selected-buttons{
     background-color: black;
     color: white;
+}
 
+@media(max-width:600px){
+    .horizontal-table{
+        left: 0px;
+    }
 }
