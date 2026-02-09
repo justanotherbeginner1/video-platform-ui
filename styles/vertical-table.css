@@ -8,11 +8,9 @@
     bottom: 0px;
     align-items: center;
     width: 60px;
-   
 }
 
-
-@media(max-width:800px){
+@media(max-width:600px){
     .vertical-table{
         display: none;
     }
@@ -51,6 +49,3 @@
 #you-text{
     margin-left: 20px;
 }
-
-
-
